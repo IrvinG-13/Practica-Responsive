@@ -20,7 +20,6 @@ body{
   height: 300px;
   display: flex;
 }
-
 .menu {
   background-color: #F97316;
   height: 80px;
@@ -95,12 +94,6 @@ a:hover{
     word-wrap: break-word;
 }
 
-/*Seccion 2*/
-
-.dos {
-  background-color: #FACC15;
-}
-
 .tres {
   background-color: #78350F;
 }
@@ -110,8 +103,37 @@ a:hover{
 }
 
 /*Disenio de Tablets*/
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media only screen and (min-width: 501px) and (max-width: 780px) {
+  .dos {
+  padding: 20px;
+  background-color: #f8e5cd;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+   }
+  .header{
+    flex-wrap:wrap;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+  }
+
+  a{
+    width: 40%;
+    margin: 5px;
+  }
+
+  footer{
+    height: auto;
+    display: flex;
+    padding: 20px;
+    background-color: #bae0da;
+    color: white;
+   width: 100%;
   
+}
 }
 
 /*Disenio de Escritorio*/
@@ -121,4 +143,3 @@ a:hover{
     margin: 0 auto;
   }
 }
-
