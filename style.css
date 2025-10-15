@@ -1,0 +1,124 @@
+/*Disenio de moviles*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(214, 214, 214);
+    font-family: sans-serif;
+}
+
+.principal {
+  display: flex;
+  flex-wrap: wrap;
+}
+/*Estilo Principal para todas las secciones*/
+.section {
+  width: 100%;
+  height: 300px;
+  display: flex;
+}
+
+.menu {
+  background-color: #F97316;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background-color: #FFF7ED;
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a{
+    background-color: #84CC16;
+    color: white;
+    text-decoration: none;
+    border: 1px solid rgb(41, 40, 40);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+a:hover{
+    background-color: green;
+    transition: 0.3s;
+    padding: 10.5px;
+}
+/*Seccion 1*/
+.uno {
+  padding: 20px;
+  background-color: #FFF7ED;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contenido{
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;       
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;          
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#contenido img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#contenido .descripcion {
+    padding: 15px;
+    text-align: center;
+    color: rgb(48, 47, 47);
+}
+
+#contenido .descripcion p {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: justify;
+    word-wrap: break-word;
+}
+
+/*Seccion 2*/
+
+.dos {
+  background-color: #FACC15;
+}
+
+.tres {
+  background-color: #78350F;
+}
+
+.cuatro {
+  background-color: #F97316;
+}
+
+/*Disenio de Tablets*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  
+}
+
+/*Disenio de Escritorio*/
+@media only screen and (min-width: 961px) {
+  .principal {
+    width: 960px;
+    margin: 0 auto;
+  }
+}
+
