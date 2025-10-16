@@ -52,7 +52,7 @@ a:hover{
 /*Seccion 1*/
 .uno {
   padding: 20px;
-  background-color: #FFF7ED;
+  background-color: #78350F;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -94,13 +94,49 @@ a:hover{
     word-wrap: break-word;
 }
 
+.dos{
+   padding: 20px;
+  background-color: #FFF7ED;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
 .tres {
   background-color: #78350F;
+  padding: 20px;
+  background-color: #FFF7ED;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .cuatro {
   background-color: #F97316;
+  padding: 20px;
+  background-color: #FFF7ED;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+footer{
+  width: 100%;
+  padding: 20px;
+  background-color: #f8e5cd;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nombres p{
+    margin: 10px;
+}
+
 
 /*Disenio de Tablets*/
 @media only screen and (min-width: 501px) and (max-width: 780px) {
@@ -129,8 +165,8 @@ a:hover{
     height: auto;
     display: flex;
     padding: 20px;
-    background-color: #bae0da;
-    color: white;
+    background-color: #f8e5cd;
+    color: black;
    width: 100%;
   
 }
@@ -224,7 +260,7 @@ footer{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   height: auto;
   width: 100%;
   background-color: #f8e5cd;
